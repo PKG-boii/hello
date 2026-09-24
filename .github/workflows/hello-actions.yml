@@ -2,7 +2,7 @@ name: Making Maggi
 on:
   push:
     branches:
-     -main
+      - main
 jobs:
   maggi:
     runs-on: ubuntu-latest
