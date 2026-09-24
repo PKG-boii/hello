@@ -1,0 +1,13 @@
+name: Making Maggi
+on:
+  workflow_dispatch:
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Prep Utensils
+        run: echo "Take a maggi packet,pot and a burner ready"
+      - name: Cooking
+        run: echo "Open maggi packet and put it in the pot along with some water, wait for it to boli and then add masala packet"
+      - name: Enjooooyyyyyy Yummmm
+        run: echo "Add green chilly sauce and enjoyyyy"
