@@ -4,7 +4,7 @@ on:
     branches:
      -main
 jobs:
-  make maggi bitch:
+  maggi:
     runs-on: ubuntu-latest
     steps:
       - name: Prep Utensils
